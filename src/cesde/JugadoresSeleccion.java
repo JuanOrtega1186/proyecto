@@ -1,5 +1,7 @@
 package cesde;
 
+import java.util.ArrayList;
+
 public class JugadoresSeleccion {
 
     public String numeroCamiseta;
@@ -66,5 +68,17 @@ public class JugadoresSeleccion {
 
     public void setEquipoDondeJuega(String equipoDondeJuega) {
         this.equipoDondeJuega = equipoDondeJuega;
+    }
+
+    @Override
+    public String toString() {
+        return "JugadoresSeleccion{" +
+                "numeroCamiseta='" + numeroCamiseta + '\'' +
+                ", nombre='" + nombre + '\'' +
+                ", apellidos='" + apellidos + '\'' +
+                ", posicion='" + posicion + '\'' +
+                ", edad='" + edad + '\'' +
+                ", equipoDondeJuega='" + equipoDondeJuega + '\'' +
+                '}';
     }
 }

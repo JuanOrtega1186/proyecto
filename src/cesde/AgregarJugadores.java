@@ -19,26 +19,6 @@ public class AgregarJugadores {
 
 
 
-        consola.imprimir("Ingrese el numero de camiseta: ");
-        jugadores.setNumeroCamiseta(consola.getEntradaDatos());
-
-        consola.imprimir("Ingrese el nombre: ");
-        jugadores.setNombre(consola.getEntradaDatos());
-
-        consola.imprimir("Ingrese el apellido: ");
-        jugadores.setApellidos(consola.getEntradaDatos());
-
-        consola.imprimir("Ingrese la posicion :");
-        jugadores.setPosicion(consola.getEntradaDatos());
-
-        consola.imprimir("Ingrese la edad :");
-        jugadores.setEdad(consola.getEntradaDatos());
-
-        consola.imprimir("Ingrese el equipo donde juega: ");
-        jugadores.setEquipoDondeJuega(consola.getEntradaDatos());
-
-        listaJugadores.add(jugadores);
-        imprimirOpcionesMenuExecptoIndefinida(consola);
 
 
         }
